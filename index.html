@@ -294,8 +294,8 @@
     <div class="count-line">Showing <strong id="visibleCount">33</strong> / 33 games</div>
     <div class="tabs" id="tabRow">
       <div class="tab active" data-filter="All">All Games</div>
-      <div class="tab" data-filter="Slot Machines">Slot Machines</div>
-      <div class="tab" data-filter="Electronic Gaming Machines">Electronic Gaming Machines</div>
+      <div class="tab" data-filter="Slot Machine">Slot Machines</div>
+      <div class="tab" data-filter="Electronic Gaming Machine">Electronic Gaming Machines</div>
       <div class="tab" data-filter="Multi-player Electronic Table Game (METG)">Multi-player Electronic Table Game (METG)</div>
     </div>
   </header>
@@ -308,7 +308,7 @@
   <div class="grid" id="gameGrid"></div>
   <div class="empty-state" id="emptyState">No games match your search.</div>
 
-  <footer>© Palazzo Club — Game rules are property of Palazzo Club<br>1st Floor, Sheraton Saigon Grand Opera Hotel, 88 Dong Khoi &amp; 80 Dong Du Street, Ho Chi Minh City</footer>
+  <footer>© Palazzo Club — Game rules are property of Palazzo Club<br>1st Floor, Sheraton Saigon Grand Opera Hotel, 88 Dong Khoi &amp; 80 Dong Du Street, Sai Gon Ward, Ho Chi Minh City</footer>
 </div>
 
 <!-- ---------- POPUP OVERLAY ---------- -->
@@ -341,39 +341,39 @@
   const IMAGE_BASE = "https://raw.githubusercontent.com/tram22817-hub/palazzo-assets/main/palazzo-game-images/game-images/"; // <-- change to your hosted folder URL, keep trailing slash
 
   const games = [
-    { name:"Roulette Single Zero", cat:"Electronic Gaming Machines", img:"roulette.jpg" },
-    { name:"Sic Bo — 5G Diamond Dice", cat:"Electronic Gaming Machines", img:"sic-bo-5g-diamond-dice.jpg" },
+    { name:"Roulette Single Zero", cat:"Electronic Gaming Machine", img:"roulette.jpg" },
+    { name:"Sic Bo — 5G Diamond Dice", cat:"Electronic Gaming Machine", img:"sic-bo-5g-diamond-dice.jpg" },
     { name:"Blackjack", cat:"Multi-player Electronic Table Game (METG)", img:"blackjack.jpg" },
     { name:"Baccarat", cat:"Multi-player Electronic Table Game (METG)", img:"baccarat.jpg" },
-    { name:"5 Dragons Pearl", cat:"Slot Machines", img:"5-dragons-pearl.jpg" },
+    { name:"5 Dragons Pearl", cat:"Slot Machine", img:"5-dragons-pearl.jpg" },
     { name:"5 Dragons Deluxe", cat:"Slot Machine", img:"5-dragons-deluxe.jpg" },
-    { name:"5 Dragons Gold", cat:"Slot Machines", img:"5-dragons-gold.jpg" },
-    { name:"5 Dragons Rapid", cat:"Slot Machines", img:"5-dragons-rapid.jpg" },
-    { name:"5 Dragons Riches", cat:"Slot Machines", img:"5-dragons-riches.jpg" },
-    { name:"5 Dragons Reign", cat:"Slot Machines", img:"5-dragons-reign.jpg" },
-    { name:"5 Dragons Collection", cat:"Slot Machines", img:"5-dragons-collection.jpg" },
-    { name:"5 Dragons Link — Glory", cat:"Slot Machines", img:"5-dragons-link-glory.jpg" },
-    { name:"5 Dragons Ultra", cat:"Slot Machines", img:"5-dragons-ultra.jpg" },
-    { name:"5 Koi Legends", cat:"Slot Machines", img:"5-koi-deluxe.jpg" },
-    { name:"5 Kings", cat:"Slot Machines", img:"5-kings.jpg" },
-    { name:"9 Princes of the Dragon King — Koi", cat:"Slot Machines", img:"9-princes-of-the-dragon-king-koi.jpg" },
-    { name:"9 Princes of the Dragon King — Tiger", cat:"Slot Machines", img:"9-princes-of-the-dragon-king-tiger.jpg" },
-    { name:"Coin Combo — Hyper Horse", cat:"Slot Machines", img:"coin-combo-hyper-horse.jpg" },
-    { name:"Coin Combo — Carnival Cow", cat:"Slot Machines", img:"coin-combo-carnival-cow.jpg" },
-    { name:"Duo Fu Duo Cai — Grand VIP Dragons", cat:"Slot Machines", img:"duo-fu-duo-cai-grand-vip-dragons.jpg" },
-    { name:"Duo Fu Duo Cai — Grand VIP Ingotcha", cat:"Slot Machines", img:"duo-fu-duo-cai-grand-vip-ingotcha.jpg" },
-    { name:"Jin Ji Bao Xi — Grand VIP Phoenix", cat:"Slot Machines", img:"jin-ji-bao-xi-grand-vip-phoenix.jpg" },
-    { name:"Jin Ji Bao Xi — Grand VIP Tiger", cat:"Slot Machines", img:"jin-ji-bao-xi-grand-vip-tiger.jpg" },
-    { name:"Fortune's Choice", cat:"Slot Machines", img:"fortune-s-choice.jpg" },
-    { name:"Dragon Link — Golden Century", cat:"Slot Machines", img:"dragon-link-golden-century.jpg" },
-    { name:"Dragon Link — Happy & Prosperous", cat:"Slot Machines", img:"dragon-link-happy-prosperous.jpg" },
-    { name:"Jin Cai Hao Yun — 5 Dragons Yellow Edition", cat:"Slot Machines", img:"jin-cai-hao-yun-5-dragons-yellow-edition.jpg" },
-    { name:"Jin Cai Hao Yun — 5 Dragons Red Edition", cat:"Slot Machines", img:"jin-cai-hao-yun-5-dragons-red-edition.jpg" },
-    { name:"Mo' Mummy Mighty Pyramid", cat:"Slot Machines", img:"mo-mummy-mighty-pyramid.jpg" },
-    { name:"Prosperity Link — Cai Yun Heng Tong", cat:"Slot Machines", img:"prosperity-link-cai-yun-heng-tong.jpg" },
-    { name:"Prosperity Link — Wan Shi Ru Yi", cat:"Slot Machines", img:"prosperity-link-wan-shi-ru-yi.jpg" },
-    { name:"Big Fu Cash Bat — Dragon", cat:"Slot Machines", img:"big-fu-cash-bat-dragon.jpg" },
-    { name:"Brazil", cat:"Slot Machines", img:"brazil.jpg" },
+    { name:"5 Dragons Gold", cat:"Slot Machine", img:"5-dragons-gold.jpg" },
+    { name:"5 Dragons Rapid", cat:"Slot Machine", img:"5-dragons-rapid.jpg" },
+    { name:"5 Dragons Riches", cat:"Slot Machine", img:"5-dragons-riches.jpg" },
+    { name:"5 Dragons Reign", cat:"Slot Machine", img:"5-dragons-reign.jpg" },
+    { name:"5 Dragons Collection", cat:"Slot Machine", img:"5-dragons-collection.jpg" },
+    { name:"5 Dragons Link — Glory", cat:"Slot Machine", img:"5-dragons-link-glory.jpg" },
+    { name:"5 Dragons Ultra", cat:"Slot Machine", img:"5-dragons-ultra.jpg" },
+    { name:"5 Koi Legends", cat:"Slot Machine", img:"5-koi-deluxe.jpg" },
+    { name:"5 Kings", cat:"Slot Machine", img:"5-kings.jpg" },
+    { name:"9 Princes of the Dragon King — Koi", cat:"Slot Machine", img:"9-princes-of-the-dragon-king-koi.jpg" },
+    { name:"9 Princes of the Dragon King — Tiger", cat:"Slot Machine", img:"9-princes-of-the-dragon-king-tiger.jpg" },
+    { name:"Coin Combo — Hyper Horse", cat:"Slot Machine", img:"coin-combo-hyper-horse.jpg" },
+    { name:"Coin Combo — Carnival Cow", cat:"Slot Machine", img:"coin-combo-carnival-cow.jpg" },
+    { name:"Duo Fu Duo Cai — Grand VIP Dragons", cat:"Slot Machine", img:"duo-fu-duo-cai-grand-vip-dragons.jpg" },
+    { name:"Duo Fu Duo Cai — Grand VIP Ingotcha", cat:"Slot Machine", img:"duo-fu-duo-cai-grand-vip-ingotcha.jpg" },
+    { name:"Jin Ji Bao Xi — Grand VIP Phoenix", cat:"Slot Machine", img:"jin-ji-bao-xi-grand-vip-phoenix.jpg" },
+    { name:"Jin Ji Bao Xi — Grand VIP Tiger", cat:"Slot Machine", img:"jin-ji-bao-xi-grand-vip-tiger.jpg" },
+    { name:"Fortune's Choice", cat:"Slot Machine", img:"fortune-s-choice.jpg" },
+    { name:"Dragon Link — Golden Century", cat:"Slot Machine", img:"dragon-link-golden-century.jpg" },
+    { name:"Dragon Link — Happy & Prosperous", cat:"Slot Machine", img:"dragon-link-happy-prosperous.jpg" },
+    { name:"Jin Cai Hao Yun — 5 Dragons Yellow Edition", cat:"Slot Machine", img:"jin-cai-hao-yun-5-dragons-yellow-edition.jpg" },
+    { name:"Jin Cai Hao Yun — 5 Dragons Red Edition", cat:"Slot Machine", img:"jin-cai-hao-yun-5-dragons-red-edition.jpg" },
+    { name:"Mo' Mummy Mighty Pyramid", cat:"Slot Machine", img:"mo-mummy-mighty-pyramid.jpg" },
+    { name:"Prosperity Link — Cai Yun Heng Tong", cat:"Slot Machine", img:"prosperity-link-cai-yun-heng-tong.jpg" },
+    { name:"Prosperity Link — Wan Shi Ru Yi", cat:"Slot Machine", img:"prosperity-link-wan-shi-ru-yi.jpg" },
+    { name:"Big Fu Cash Bat — Dragon", cat:"Slot Machine", img:"big-fu-cash-bat-dragon.jpg" },
+    { name:"Brazil", cat:"Slot Machine", img:"brazil.jpg" },
   ];
 
   const grid = document.getElementById('gameGrid');
